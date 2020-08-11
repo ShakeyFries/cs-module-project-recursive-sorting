@@ -1,5 +1,9 @@
 import unittest
 import random
+# from sorting import *
+
+import sys
+sys.path.append('src/sorting.py')
 from sorting import *
 
 class RecursiveSortingTests(unittest.TestCase):
